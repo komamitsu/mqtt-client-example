@@ -1,3 +1,5 @@
+package org.komamitsu.mqttclient.example;
+
 /****************************************************************************
  * Amazon Modifications: Copyright 2016 Amazon.com, Inc. or its affiliates.
  * All Rights Reserved.

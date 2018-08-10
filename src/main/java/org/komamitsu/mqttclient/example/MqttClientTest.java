@@ -1,3 +1,5 @@
+package org.komamitsu.mqttclient.example;
+
 import com.beust.jcommander.JCommander;
 import com.beust.jcommander.Parameter;
 import org.eclipse.paho.client.mqttv3.MqttClient;
