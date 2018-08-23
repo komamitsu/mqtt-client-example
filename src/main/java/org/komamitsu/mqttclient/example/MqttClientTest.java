@@ -80,6 +80,8 @@ public class MqttClientTest
         try {
             MqttClient sampleClient = new MqttClient(broker, clientId, persistence);
             MqttConnectOptions connOpts = new MqttConnectOptions();
+            connOpts.setUserName("?SDK=Java&Version=1.2.0");
+            connOpts.setMqttVersion(4);
             connOpts.setCleanSession(true);
             connOpts.setSocketFactory(socketFactory);
             System.out.println("Connecting to broker: "+broker);
